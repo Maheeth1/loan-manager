@@ -85,7 +85,7 @@ GET	/api/applicationRoutes/applications	Fetch all loan applications
 There is no status column in the DB. Applications are shown with default status "Pending" in the dashboard.
 
 🧑‍💻 Author
-Made by [Your Name]
+Made by Maheeth
 
 📄 License
 This project is licensed under the MIT License.
