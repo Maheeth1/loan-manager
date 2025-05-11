@@ -51,25 +51,21 @@ Copy
 Edit
 npx ts-node src/index.ts
 Runs on http://localhost:4000
-
+```
 🌐 Frontend Setup
-bash
-Copy
-Edit
+```bash
 cd client
 npm install
 npm start
 Runs on http://localhost:3000
-
+```
 📁 Project Structure
-bash
-Copy
-Edit
+```bash
 loan-manager/
 ├── client/            # React frontend
 ├── server/            # Node + Express backend
 │   └── data/          # Contains `loans.db` SQLite database
-🌟 Screens
+```
 User fills out the loan application form
 
 Verifier dashboard lists submitted applications (status: pending by default)
@@ -77,9 +73,11 @@ Verifier dashboard lists submitted applications (status: pending by default)
 Admin dashboard for analytics (if implemented)
 
 🧪 API Endpoints
+```
 Method	Endpoint	Description
 POST	/api/applicationRoutes/loans	Submit loan application
 GET	/api/applicationRoutes/applications	Fetch all loan applications
+```
 
 📌 Status Field
 There is no status column in the DB. Applications are shown with default status "Pending" in the dashboard.
@@ -87,12 +85,6 @@ There is no status column in the DB. Applications are shown with default status 
 🧑‍💻 Author
 Made by Maheeth
 
-📄 License
-This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
 
 ---
 
