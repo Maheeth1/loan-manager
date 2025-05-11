@@ -39,16 +39,14 @@ A full-stack web application to manage loan applications with user, verifier, an
 ```bash
 git clone https://github.com/Maheeth1/loan-manager.git
 cd loan-manager
+```
 📦 Backend Setup
-bash
-Copy
-Edit
+```bash
 cd server
 npm install
+```
 Start the server
-bash
-Copy
-Edit
+```bash
 npx ts-node src/index.ts
 Runs on http://localhost:4000
 ```
